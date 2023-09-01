@@ -5,11 +5,14 @@ const Services = () => {
   return (
     <Container sx={{ minHeight: "100vh", pb:'30px' }}>
       <Typography variant="h3">Services</Typography>
-      <Grid container spacing={4} sx={{margin:'0 auto'}} >
-        <Grid item md="5" sm="12">
+      <Grid container spacing={2} sx={{margin:'0 auto'}} >
+        <Grid item md="6" sm="10">
           <Card>
             <CardMedia>
-              <img src={disImg} alt="billing" style={{ width: "100%" }} />
+              <img 
+                  src={disImg} alt="billing" 
+                  style={{ width: "90%" }} 
+              />
             </CardMedia>
             <CardContent>
               <Typography variant="h5">Dispatcher</Typography>
@@ -20,10 +23,14 @@ const Services = () => {
             </CardContent>
           </Card>
         </Grid>
-        <Grid item md="5" sm="12">
+        <Grid item md="6" sm="10">
           <Card>
             <CardMedia>
-              <img src={disImg} alt="billing" style={{ width: "100%" }} />
+              <img 
+                src={disImg} 
+                alt="billing" 
+                style={{ width: "90%" }} 
+                />
             </CardMedia>
             <CardContent>
               <Typography variant="h5">Dispatcher</Typography>
@@ -34,10 +41,14 @@ const Services = () => {
             </CardContent>
           </Card>
         </Grid>
-        <Grid item md="5" sm="12">
+        <Grid item md="6" sm="10">
           <Card>
             <CardMedia>
-              <img src={disImg} alt="billing" style={{ width: "100%" }} />
+              <img 
+                src={disImg}
+                alt="billing" 
+                style={{ width: "90%" }}
+              />
             </CardMedia>
             <CardContent>
               <Typography variant="h5">Dispatcher</Typography>
@@ -48,10 +59,14 @@ const Services = () => {
             </CardContent>
           </Card>
         </Grid>
-        <Grid item md="5" sm="12">
+        <Grid item md="6" sm="10">
           <Card>
             <CardMedia>
-              <img src={disImg} alt="billing" style={{ width: "100%" }} />
+              <img 
+                src={disImg} 
+                alt="billing" 
+                style={{ width: "90%" }}
+                 />
             </CardMedia>
             <CardContent>
               <Typography variant="h5">Dispatcher</Typography>

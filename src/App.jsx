@@ -1,11 +1,8 @@
-// import Footer from "./components/Footer"
-// import Navbar from "./components/Navbar"
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import { Footer, Navbar } from './components'
 import { Home, About, Contact, Services } from "./pages";
 
-// import Form2 from './pages/Form2'
 
 function App() {
 

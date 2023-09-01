@@ -2,7 +2,7 @@ import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import redtruck from "../assets/redtruck.jpg";
 
 // import pages 
-import { About, Contact, Services  } from '../pages'
+// import { About, Contact, Services  } from '../pages'
 
 const Home = () => {
   return (
@@ -34,11 +34,11 @@ const Home = () => {
               item
               md="6"
               sm="12"
-              sx={{ marginTop: "60px", padding: "0 10px" }}
+              sx={{ marginTop: "60px" }}
             >
               <Typography
-                variant="h1"
-                sx={{ margin: "40px 0 auto", fontWeight: 400, color: "#fff" }}
+                variant="h2"
+                sx={{ margin: "40px 0 auto", color: "#fff" }}
               >
                 FREIGHT DISPATCH SERVICE
               </Typography>
@@ -59,9 +59,9 @@ const Home = () => {
           </Grid>
         </Container>
       </Box>
-      <About />
-      <Services style={{ background: "#000" }} />
-      <Contact />
+      {/* <About /> */}
+      {/* <Services style={{ background: "#000" }} /> */}
+      {/* <Contact /> */}
     </Box>
   );
 };
