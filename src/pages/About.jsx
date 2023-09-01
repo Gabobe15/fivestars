@@ -6,7 +6,7 @@ import { GiSevenPointedStar } from 'react-icons/gi'
 
 const About = () => {
   return (
-    <Box sx={{ minHeight: "100vh" }}>
+    <Box sx={{ minHeight: "100vh", margin:"20px 0 10px"}}>
       <Container maxWidth="lg">
         <Typography variant="h3">About Us</Typography>
         <Box>

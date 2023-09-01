@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <Container sx={{ minHeight: "100vh", pb:'30px' }}>
       <Typography variant="h3">Services</Typography>
-      <Grid container spacing={2} sx={{margin:'0 auto'}} >
+      <Grid container spacing={2}  >
         <Grid item md="6" sm="10">
           <Card>
             <CardMedia>

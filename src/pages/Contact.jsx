@@ -8,7 +8,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <Container spacing={2} sx={{ minHeight: "100vh" }}>
+    <Container spacing={2} sx={{ minHeight: "85vh", mb:'20px' }}>
       <Grid container spacing={2} maxWidth="lg">
         <Grid item lg="6" md="12">
           <Box sx={{mb:'20px'}}>
