@@ -29,7 +29,7 @@ const Services = () => {
               <img 
                 src={disImg} 
                 alt="billing" 
-                style={{ width: "90%" }} 
+                style={{ width: "100%" }} 
                 />
             </CardMedia>
             <CardContent>

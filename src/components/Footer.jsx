@@ -18,7 +18,10 @@ import {
 
 const Footer = () => {
   return (
-    <Box className="footer" style={{ background: "#000", color: "#fff", padding: "30px 20px"}}>
+    <Box
+      className="footer"
+      style={{ background: "#000", color: "#fff", padding: "30px 20px" }}
+    >
       <Container maxWidth="xl">
         <Grid container>
           <Grid item md="4" sm="6" xs="12">
@@ -97,23 +100,23 @@ const Footer = () => {
             </Box>
           </Grid>
         </Grid>
-        <Grid item style={{textAlign:'center', padding:'1rem'}}>
+        <Grid item style={{ textAlign: "center", padding: "1rem" }}>
           <IconButton>
-            <BsFacebook  className='icons'/>
+            <BsFacebook className="icons" />
           </IconButton>
           <IconButton>
-            <BsTwitter className='icons' />
+            <BsTwitter className="icons" />
           </IconButton>
           <IconButton>
-            <BsLinkedin className='icons' />
+            <BsLinkedin className="icons" />
           </IconButton>
           <IconButton>
-            <BsInstagram  className='icons'/>
+            <BsInstagram className="icons" />
           </IconButton>
         </Grid>
         <Grid item sm="12">
           <Typography style={{ textAlign: "center" }}>
-            All rights &copy; 2023 reserved to gabobedevs{" "}
+            All rights &copy; {new Date().getFullYear()} reserved to gabobedevs
           </Typography>
         </Grid>
       </Container>
