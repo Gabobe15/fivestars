@@ -24,7 +24,7 @@ const Footer = () => {
     >
       <Container maxWidth="xl">
         <Grid container>
-          <Grid item md="4" sm="6" xs="12">
+          <Grid item md="4" sm="6" xs="12" sx={{ mb: "10px" }}>
             <Typography variant="h5" component="h6">
               Links
             </Typography>
@@ -41,7 +41,7 @@ const Footer = () => {
               <Typography variant="body">Truck Types</Typography>
             </Box>
           </Grid>
-          <Grid item md="4" sm="6" xs="12">
+          <Grid item md="4" sm="6" xs="12" sx={{ mb: "10px" }}>
             <Typography variant="h5" component="h6">
               Address One
             </Typography>
@@ -70,7 +70,7 @@ const Footer = () => {
               <Typography variant="body"> WILMINGTON, DE</Typography>
             </Box>
           </Grid>
-          <Grid item md="4" sm="6" xs="12">
+          <Grid item md="4" sm="6" xs="12" sx={{ mb: "10px" }}>
             <Typography variant="h5" component="h6">
               Address Two
             </Typography>
@@ -100,7 +100,7 @@ const Footer = () => {
             </Box>
           </Grid>
         </Grid>
-        <Grid item style={{ textAlign: "center", padding: "1rem" }}>
+        <Grid item style={{ textAlign: "center", mb: "10px" }}>
           <IconButton>
             <BsFacebook className="icons" />
           </IconButton>
@@ -114,9 +114,13 @@ const Footer = () => {
             <BsInstagram className="icons" />
           </IconButton>
         </Grid>
-        <Grid item sm="12">
+
+        <Grid item sm="12" sx={{ mt: "5px" }}>
           <Typography style={{ textAlign: "center" }}>
-            All rights &copy; {new Date().getFullYear()} reserved to gabobedevs
+            All rights &copy; {new Date().getFullYear()} reserved to
+            <a href="mailto:gabobe33@gmail.com">
+              <span style={{ color: "white" }}> GABOBEDEVS</span>
+            </a>
           </Typography>
         </Grid>
       </Container>

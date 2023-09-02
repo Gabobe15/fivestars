@@ -14,7 +14,7 @@ const Home = () => {
           width: "100%",
           marginTop: "-60px",
           // backgroundImage:  `url(${redtruck})`,
-         backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(${redtruck})`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(${redtruck})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundPosition: "center",
@@ -48,6 +48,7 @@ const Home = () => {
                   textAlign: "left",
                   color: "#fff",
                   fontWeight: { sm: 100, md: 400 },
+                  marginLeft: { xs: "10px", sm: "10px", md:'0' },
                   marginBottom: "0",
                   fontSize: { xs: "1.8rem", sm: "2rem", md: "4.5rem" },
                 }}
